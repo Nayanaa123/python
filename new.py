@@ -11,6 +11,17 @@ def avg():
         print("Avg :",avg)  
 def per():
         print("percent:",per)
+def grade():
+       if per>=90:
+             print("a",per)
+       elif per>=70:
+             print("b",per)
+       elif per>=50:
+             print("c",per)
+       else:
+              print("d",per)       
+              
+                          
 
 
         
