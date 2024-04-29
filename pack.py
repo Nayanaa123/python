@@ -8,4 +8,4 @@ def mul(a,b):
     e=a*b 
     print("multiple:",e)
 
-     
+      
