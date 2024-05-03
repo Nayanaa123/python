@@ -1,4 +1,4 @@
-n=open("b.py","a")
+n=open("b.txt","a")
 def add():
     name=input("enter a name")
     place=input("enter a place")

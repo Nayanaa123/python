@@ -7,7 +7,7 @@ if sel==1:
 elif sel==2:
     n=input("select a name")
     data=name.index(n)
-    print("name of index value",name[data])
+    print("name ofindex value",name[data])
 elif sel==3:
     n=input("enter a name to replace ")
     m=input("enter a name to be replaced")
