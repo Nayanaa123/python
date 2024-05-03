@@ -3,8 +3,8 @@
 #print(content)
 #a.close()
 #b=open("b.py","w")
-b=open("b.py","a")
-b.write("hiiii")
+b=open("b.py","w")
+b.write("hiii")
 b.close()
 
 
