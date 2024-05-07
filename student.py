@@ -5,3 +5,4 @@ def total(a,b,u,v):
      print("total",e)
      print("average",d)
      print("percentage",c)
+
