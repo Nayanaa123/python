@@ -20,7 +20,7 @@ class bank:
             self.o=self.g*self.h*self.f//100
             print("interest amount",self.o)
       def emi(self):
-            self.i=self.o+self.g//(self.f*12)
+            self.i=(self.g+self.o)/(self.f*12)
             print("emi amount",self.i)    
 x=bank()
 x.customer()
