@@ -12,7 +12,11 @@ def save():
   cur.execute("INSERT INTO PERSONALINFO VALUE('%s','%s','%s');"%(n,a,p))
   conn.commit()
   print("save data sucessfully")
-
+def delete():
+  n=e1.get()
+  if n=="":
+    message.showinfo( "insert data","please fill all fields")
+    
 window=Tk()
 window.title("welcome")
 window.geometry("220x300")  
